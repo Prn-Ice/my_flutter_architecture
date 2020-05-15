@@ -1,0 +1,43 @@
+name: myflutterarchitecture
+description: An example of my current flutter architecture.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+  # State Management
+  stacked: ^1.5.0
+
+  # Navigation
+  auto_route: ^0.5.0
+  stacked_services: ^0.2.4
+
+  # Inversion of control (Dependency Injection)
+  get_it: ^4.0.2
+  injectable: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  auto_route_generator: ^0.5.0
+  injectable_generator: ^0.3.5
+  build_runner:
+
+flutter:
+
+  uses-material-design: true
